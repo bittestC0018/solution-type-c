@@ -10,10 +10,11 @@ public class MyStack {
 
 	public void push(String item) {
 		buffer[size()]=item;
+		
 	}
 
 	public String pop() {
-		return buffer[size()];
+		return buffer[size()-1];
 	}
 
 	public boolean isEmpty() {
